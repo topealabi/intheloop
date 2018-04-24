@@ -10,15 +10,14 @@ const MessagingResponse = require('twilio').twiml.MessagingResponse;
 // require the Twilio module and create a REST client
 const client = require('twilio')(accountSid, authToken);
 
-function sendMessage(number){
-	client.messages
-  .create({
-    to: number,
-    from: '+15106940372',
-    body: 'Rule #1 stay in the loop',
-  })
-  .then(message => console.log(message.sid));
-}
+client.messages
+.create({
+  to: number,
+  from: '+15106940372',
+  body: 'Rule #1 stay in the loop',
+})
+.then(message => console.log(message.sid));
+
 
 
 app.post('/sms', (req, res) => {
