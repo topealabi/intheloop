@@ -12,7 +12,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages
 .create({
-  to: number,
+  to: '+18327827316',
   from: '+15106940372',
   body: 'Rule #1 stay in the loop',
 })
