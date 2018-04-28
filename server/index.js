@@ -1,7 +1,20 @@
-const http = require('http');
+// const http = require('http');
 const express = require('express');
+
+var mongoose = require("./db/connector");
+var session = require('express-session');
+var MongoStore = require('connect-mongo')(session);
 const cors = require("cors");
+
 const app = express();
+app.use(session({
+  secret: 'play hard',
+  resave: true,
+  saveUninitialized: false,
+  store: new MongoStore({
+    mongooseConnection: mongoose.connection
+  })
+}));
 app.use(cors());
 const bodyParser = require("body-parser");
 app.use(bodyParser.json()); // support json encoded bodies
