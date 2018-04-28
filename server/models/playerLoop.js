@@ -1,7 +1,7 @@
 var mongoose = require("../db/connector");
 var Schema = mongoose.Schema;
 
-var playerCircleSchema = mongoose.Schema({
+var playerLoopSchema = mongoose.Schema({
 	// _id: Schema.Types.ObjectId,
 
 	group_id: Schema.Types.ObjectId,
@@ -13,6 +13,6 @@ var playerCircleSchema = mongoose.Schema({
 	//rewards: [{ type: Schema.Types.ObjectId, ref: "Rewards" }]
 });
 
-var PlayerCircle = mongoose.model("PlayerCircle", playeCircleSchema);
+var PlayerLoop = mongoose.model("PlayerLoop", playerLoopSchema);
 
-module.exports = PlayerCircle;
+module.exports = PlayerLoop;

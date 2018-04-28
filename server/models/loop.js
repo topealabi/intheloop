@@ -1,7 +1,7 @@
 var mongoose = require("../db/connector");
 var Schema = mongoose.Schema;
 
-var circleSchema = mongoose.Schema({
+var loopSchema = mongoose.Schema({
 	// _id: Schema.Types.ObjectId,
 	name: String,
 	created_at: Date,
@@ -12,6 +12,6 @@ var circleSchema = mongoose.Schema({
 	//rewards: [{ type: Schema.Types.ObjectId, ref: "Rewards" }]
 });
 
-var Circle = mongoose.model("Circle", circleSchema);
+var Loop = mongoose.model("Loop", loopSchema);
 
-module.exports = Circle;
+module.exports = Loop;
