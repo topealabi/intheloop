@@ -1,0 +1,8 @@
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+body {
+    background-color: white;
+    font-family: $font-family;
+}

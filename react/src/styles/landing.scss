@@ -1,0 +1,31 @@
+@import '_settings.scss';
+@import '_base.scss';
+
+.logo {
+    bottom: 22%;
+    width: 30%;
+    position: relative;
+}
+
+.landing {
+    align-items: center;
+    background-image: url('../img/0.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    color: $itlOrange;
+    top: 23%;
+    font-size: 48px;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px black;
+}

@@ -1,0 +1,21 @@
+@import '_settings.scss';
+@import '_base.scss';
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0;
+}
+
+.loops-heading {
+    background: linear-gradient(to right, rgb(105, 201, 202), rgb(150, 222, 218));
+    display: flex;
+    justify-content: center;
+}
+
+.title-loops {
+    color: white;
+    font-size: 1em;
+    margin: 10% 0;
+    box-shadow: none;
+}
