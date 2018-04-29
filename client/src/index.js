@@ -14,5 +14,6 @@ import './styles/landing.scss';
 import './styles/loops.scss';
 import './styles/signup.scss';
 import './styles/buttonitl.scss';
+import './styles/profileContainer.scss';
 
 ReactDOM.render(<App />, document.getElementById('app'));

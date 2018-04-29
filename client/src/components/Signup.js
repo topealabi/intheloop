@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ButtonItl from './ButtonItl';
+import ProfileContainer from './ProfileContainer';
+import profileImage from '../img/profiles/1.jpg';
 // import { Link } from 'react-router-dom';
 
 export default class Signup extends Component {
@@ -30,11 +32,7 @@ export default class Signup extends Component {
         return (
             <div className="signup">
                 <div className="wave">
-                    <div className="outer-disk">
-                        <div className="inner-disk">
-                            <img className="profile-pic" />
-                        </div>
-                    </div>
+                    <ProfileContainer imgURL={profileImage} />
                 </div>
                 <h1 className="signup-form-name">Welcome Tope!</h1>
                 <form className="signup-form">

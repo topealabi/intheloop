@@ -3,7 +3,7 @@ $fa-font-path: '~font-awesome/fonts';
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
 body {
-    background-color: white;
+    background-color: $whiteBackground;
     font-family: $font-family;
 }
 
