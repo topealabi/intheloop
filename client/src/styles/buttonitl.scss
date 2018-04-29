@@ -1,0 +1,8 @@
+@import '_settings.scss';
+@import '_base.scss';
+
+input.signup-form-btn {
+    background: linear-gradient(to right, $itlOrangeDark, $itlOrangeLight);
+    color: white;
+    height: 2.5em;
+}

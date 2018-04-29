@@ -1,0 +1,91 @@
+@import '_settings.scss';
+@import '_base.scss';
+
+.wave {
+    background: linear-gradient(to right, $itlOrangeDark, $itlOrangeLight);
+    display: flex;
+    height: 216px;
+    justify-content: center;
+    position: relative;
+}
+
+.wave::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 121px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/wave.png');
+}
+
+.outer-disk {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    top: 35%;
+    width: 150px;
+}
+
+.inner-disk {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 125px;
+    width: 125px;
+}
+.profile-pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/profiles/1.jpg');
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.signup-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-form input {
+    border: 1px solid $itlGrey;
+    border-radius: 20px;
+    margin: 5% 0;
+    padding: 0 3%;
+    height: 2em;
+    width: 70%;
+}
+
+.signup-form-name {
+    color: $itlGrey;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}

@@ -6,3 +6,13 @@ body {
     background-color: white;
     font-family: $font-family;
 }
+
+.flex-wrapper-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrapper-row {
+    display: flex;
+    flex-direction: row;
+}
