@@ -4,6 +4,7 @@ var rp = require("request-promise");
 
 var players_controller = require("./controllers/playersController");
 var authentication_controller = require("./controllers/authenticationController");
+var loops_controller = require("./controllers/loopsController");
 
 
 //useful for routes that require authentication
@@ -31,7 +32,7 @@ router.post("/logout", authentication_controller.logout);
 router.post("/reset-password", authentication_controller.resetPassword);
 
 //player routes
-router.get("/players", players_controller.all);
+router.get("/players", players_controller.all); 
 router.post("/players/create", players_controller.create);
 router.post("/players/update", players_controller.update);
 router.delete("/players/delete", players_controller.delete);

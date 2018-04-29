@@ -24,10 +24,10 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 var routes = require("./routes.js");
 app.use("/", routes);
 
-app.set("port", process.env.PORT || 5000);
+var server = app.set("port", process.env.PORT || 5000);
 app.listen(app.get("port"), () => console.log("Inb0x listening on port 5000!"));
 
-
+module.exports = server;
 
 // ----------------------------------
 // Will be moved to controller

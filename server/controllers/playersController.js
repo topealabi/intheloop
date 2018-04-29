@@ -66,7 +66,7 @@ exports.update = function(req, res) {
 exports.delete = function(req, res) {
   // res.send("NOT IMPLEMENTED: Contract DELETE");
 
-  Player.findOneAndRemove({ address: req.body.address }, (err, player) => {
+  Player.findOneAndRemove({ phone_number: req.body.phone_number }, (err, player) => {
     if (err) {
       res.send("Something wrong when removing data!");
     }
