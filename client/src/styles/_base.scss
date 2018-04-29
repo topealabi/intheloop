@@ -3,6 +3,16 @@ $fa-font-path: '~font-awesome/fonts';
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
 body {
-    background-color: white;
+    background-color: $whiteBackground;
     font-family: $font-family;
+}
+
+.flex-wrapper-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrapper-row {
+    display: flex;
+    flex-direction: row;
 }

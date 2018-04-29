@@ -1,0 +1,69 @@
+@import '_settings.scss';
+@import '_base.scss';
+
+.wave {
+    background: linear-gradient(to right, $itlOrangeDark, $itlOrangeLight);
+    display: flex;
+    height: 216px;
+    justify-content: center;
+    position: relative;
+}
+
+.wave::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -1;
+    width: 108%;
+    height: 103px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/wave.png');
+}
+
+.signup-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-form input {
+    border: 1px solid $itlGrey;
+    border-radius: 20px;
+    margin: 5% 0;
+    padding: 0 3%;
+    height: 2em;
+    width: 70%;
+}
+
+.signup-form-name {
+    color: $itlGrey;
+    text-align: center;
+    position: relative;
+    z-index: -50;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+@media only screen and (min-width: 375px) {
+    .wave::before {
+        height: 124px;
+    }
+}

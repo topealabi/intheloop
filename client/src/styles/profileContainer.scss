@@ -1,0 +1,32 @@
+@import '_settings.scss';
+@import '_base.scss';
+
+.outer-disk {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    top: 35%;
+    width: 150px;
+}
+
+.inner-disk {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 125px;
+    width: 125px;
+}
+
+.profile-pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
