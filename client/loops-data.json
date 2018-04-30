@@ -1,0 +1,115 @@
+{
+    "loops": [
+        {
+            "loopName": "Atlanta",
+            "loopPlayers": [
+                {
+                    "fname": "Kobe",
+                    "lname": "Axel",
+                    "telephone": 6462349876,
+                    "imgUrl": "2-profile.jpg",
+                    "rings": 39,
+                    "itlStatus": true
+                },
+                {
+                    "fname": "Sarah",
+                    "lname": "Stark",
+                    "telephone": 2132349876,
+                    "imgUrl": "3-profile.jpg",
+                    "rings": 22,
+                    "itlStatus": true
+                },
+                {
+                    "fname": "Rita",
+                    "lname": "West",
+                    "telephone": 2138673290,
+                    "imgUrl": "4-profile.jpg",
+                    "rings": 19,
+                    "itlStatus": true
+                },
+                {
+                    "fname": "James",
+                    "lname": "Randle",
+                    "telephone": 6078916539,
+                    "imgUrl": "5-profile.jpg",
+                    "rings": 9,
+                    "itlStatus": false
+                }
+            ]
+        },
+        {
+            "loopName": "Oakland Heat",
+            "loopPlayers": [
+                {
+                    "fname": "Beyonce",
+                    "lname": "Alabi",
+                    "telephone": 2123659886,
+                    "imgUrl": "6-profile.jpg",
+                    "rings": 55,
+                    "itlStatus": true
+                },
+                {
+                    "fname": "Rodney",
+                    "lname": "Krane",
+                    "telephone": 8321568855,
+                    "imgUrl": "7-profile.jpg",
+                    "rings": 39,
+                    "itlStatus": true
+                },
+                {
+                    "fname": "Amber",
+                    "lname": "Green",
+                    "telephone": 5138934573,
+                    "imgUrl": "8-profile.jpg",
+                    "rings": 31,
+                    "itlStatus": false
+                },
+                {
+                    "fname": "Orinda",
+                    "lname": "Carter",
+                    "telephone": 4182335681,
+                    "imgUrl": "9-profile.jpg",
+                    "rings": 15,
+                    "itlStatus": true
+                }
+            ]
+        },
+        {
+            "loopName": "Harlem Cheescakes",
+            "loopPlayers": [
+                {
+                    "fname": "Michael",
+                    "lname": "Greer",
+                    "telephone": 9178923478,
+                    "imgUrl": "2-profile.jpg",
+                    "rings": 39,
+                    "itlStatus": true
+                },
+                {
+                    "fname": "Tracy",
+                    "lname": "Burston",
+                    "telephone": 6713215678,
+                    "imgUrl": "4-profile.jpg",
+                    "rings": 42,
+                    "itlStatus": true
+                },
+                {
+                    "fname": "Sophia",
+                    "lname": "Smith",
+                    "telephone": 6507842199,
+                    "imgUrl": "9-profile.jpg",
+                    "rings": 31,
+                    "itlStatus": false
+                },
+                {
+                    "fname": "Brandon",
+                    "lname": "Carr",
+                    "telephone": 8745642175,
+                    "imgUrl": "10-profile.jpg",
+                    "rings": 37,
+                    "itlStatus": true
+                }
+            ]
+        }
+    ]
+}

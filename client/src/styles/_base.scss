@@ -16,3 +16,59 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+.flex-justify-start {
+    justify-content: flex-start;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-justify-end {
+    justify-content: flex-end;
+}
+
+.flex-justify-around {
+    justify-content: space-around;
+}
+
+.flex-justify-between {
+    justify-content: space-between;
+}
+
+.flex-align-items-start {
+    align-items: flex-start;
+}
+
+.flex-align-items-center {
+    align-items: center;
+}
+
+.flex-align-items-end {
+    align-items: flex-end;
+}
+
+.flex-align-self-start {
+    align-self: flex-start;
+}
+
+.flex-align-self-center {
+    align-self: center;
+}
+
+.flex-align-self-end {
+    align-self: flex-end;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.remove-link-styles {
+    text-decoration: none;
+}

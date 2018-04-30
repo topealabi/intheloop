@@ -1,8 +1,17 @@
 @import '_settings.scss';
 @import '_base.scss';
 
-input.signup-form-btn {
+input.itl-btn {
     background: linear-gradient(to right, $itlOrangeDark, $itlOrangeLight);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     color: white;
     height: 2.5em;
+    padding: 0 3%;
+    transition: 0.3s;
+    width: 70%;
+}
+
+.itl-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }

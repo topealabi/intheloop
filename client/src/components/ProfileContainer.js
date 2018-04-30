@@ -9,7 +9,6 @@ export default class ProfileContainer extends Component {
     }
 
     render() {
-        console.log('this.props:', this.props);
         return (
             <div className="outer-disk">
                 <div className="inner-disk">

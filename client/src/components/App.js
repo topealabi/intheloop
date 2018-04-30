@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Landing from './Landing';
 import Signup from './Signup';
 import Loops from './Loops';
+import Loop from './Loop';
 import Search from './Search';
 
 const FourOhFour = () => <h1>404</h1>;
@@ -17,6 +18,7 @@ const App = () => (
                 <Route path="/signup" component={Signup} />
                 <Route path="/landing" component={Landing} />
                 <Route path="/loops" component={Loops} />
+                <Route path="/loop" component={Loop} />
                 <Route path="/search" component={Search} />
                 <Route component={FourOhFour} />
             </Switch>

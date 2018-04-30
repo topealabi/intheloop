@@ -1,21 +1,101 @@
 @import '_settings.scss';
 @import '_base.scss';
 
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    margin: 10% 0;
+.loops-container {
+    height: 100vh;
 }
 
-.loops-heading {
-    background: linear-gradient(to right, rgb(105, 201, 202), rgb(150, 222, 218));
-    display: flex;
-    justify-content: center;
+.loops-hero-image-container {
+    background-image: url('../img/6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
 }
 
 .title-loops {
+    text-align: center;
+    background: linear-gradient(to bottom, $charcoalDark, $charcoalLight);
+    box-shadow: none;
     color: white;
+    font-size: 1em;
+    height: 2em;
+    left: 0;
+    padding: 1% 0 0 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.navigation {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 3em;
+    margin: 4% 0;
+    padding: 0 15%;
+}
+
+.navigation div {
+    align-self: center;
+}
+
+.right-arrow,
+.left-arrow {
+    cursor: pointer;
+}
+.right-arrow {
+    justify-self: end;
+}
+
+.navigation .fa-icon {
+    color: $itlGrey;
+}
+
+.loops-name {
+    align-self: center;
+    text-align: center;
+    color: $itlGrey;
     font-size: 1em;
     margin: 10% 0;
     box-shadow: none;
+}
+
+.loops-players {
+    overflow-y: scroll;
+}
+
+.loop-player-snapshot {
+    grid-template-columns: repeat(3, 33%);
+    margin: 4% 0;
+    padding: 0 15%;
+}
+
+.loop-player-snapshot div {
+    align-self: center;
+}
+
+.loop-player-snapshot .loop-player-itlStatus {
+    justify-self: end;
+}
+
+.loop-player-snapshot .profile-pic,
+.loop-player-snapshot .outer-disk,
+.loop-player-snapshot .inner-disk {
+    width: 38px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.loop-player-name {
+    color: $itlGrey;
+}
+
+.loop-player-itlStatus {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.itl-btn-wrapper {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
 }

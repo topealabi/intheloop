@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ButtonItl from './ButtonItl';
 import ProfileContainer from './ProfileContainer';
-import profileImage from '../img/profiles/1.jpg';
+import profileImage from '../img/profiles/1-profile.jpg';
 // import { Link } from 'react-router-dom';
 
 export default class Signup extends Component {
@@ -71,7 +71,7 @@ export default class Signup extends Component {
                         value={this.state.passwordConfirm}
                         placeholder="Confirm password"
                     />
-                    <ButtonItl htmlClass="signup-form-btn" htmlName="submit" htmlValue="Put me in the loop!" />
+                    <ButtonItl htmlClass="signup-form-btn itl-btn" htmlName="submit" htmlValue="Put me in the loop!" />
                 </form>
             </div>
         );

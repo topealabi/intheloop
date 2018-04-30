@@ -12,6 +12,7 @@ import 'normalize.css';
 import './styles/app.scss';
 import './styles/landing.scss';
 import './styles/loops.scss';
+import './styles/loop.scss';
 import './styles/signup.scss';
 import './styles/buttonitl.scss';
 import './styles/profileContainer.scss';

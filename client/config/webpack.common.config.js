@@ -48,6 +48,18 @@ const config = {
                 test: /\.(png|svg|jpg|gif)$/,
                 use: [
                     {
+                        loader: 'url-loader?limit=8192',
+                        options: {
+                            name: 'images/[name].[ext]'
+                        }
+                    }
+                ],
+                exclude: /node_modules/
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [
+                    {
                         loader: 'file-loader',
                         options: {
                             name: 'images/[name].[ext]'
